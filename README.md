@@ -9,14 +9,6 @@
 </p>
 
 <p align="center">
-  <sup>1</sup>University of North Texas &nbsp;·&nbsp;
-  <sup>2</sup>Edge Hill University &nbsp;·&nbsp;
-  <sup>3</sup>University of Cincinnati<br>
-  <sup>4</sup>Iran University of Science and Technology &nbsp;·&nbsp;
-  <sup>5</sup>SR.C, Islamic Azad University
-</p>
-
-<p align="center">
   <img alt="Python 3.11" src="https://img.shields.io/badge/python-3.11-3776AB?logo=python&amp;logoColor=white">
   <img alt="Benchmarks: SimpleQA and BIRD" src="https://img.shields.io/badge/benchmarks-SimpleQA%20%7C%20BIRD-3776AB">
   <img alt="Tasks: factual QA and text-to-SQL" src="https://img.shields.io/badge/tasks-factual%20QA%20%7C%20text--to--SQL-3776AB">
@@ -28,7 +20,6 @@
   <a href="#running-the-experiments">Running the experiments</a> &nbsp;|&nbsp;
   <a href="#repository-structure">Repository structure</a> &nbsp;|&nbsp;
   <a href="#data-availability">Data availability</a> &nbsp;|&nbsp;
-  <a href="#contact">Contact</a>
 </p>
 
 <p align="center">
@@ -299,8 +290,3 @@ distributed here, because the usage terms of the model providers restrict what m
 used for. They are available for research use on request: write to the first author from an academic
 e-mail address and confirm that the data will be used for research only, and the files will be sent
 from the first author's academic address.
-
-## Contact
-
-**Mohammad Asadolahi**, Department of Computer Science and Engineering, University of North Texas<br>
-[MohammadAsadolahi@my.unt.edu](mailto:MohammadAsadolahi@my.unt.edu)
