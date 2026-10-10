@@ -1,0 +1,14 @@
+# outputs of the experiments: episode logs, traces, call caches
+results/
+
+# benchmark data (obtained from the official sources, see README.md)
+data/
+
+# local configuration
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

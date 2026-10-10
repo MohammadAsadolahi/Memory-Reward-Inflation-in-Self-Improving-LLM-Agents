@@ -1,0 +1,12 @@
+# Python 3.11
+
+# model client
+openai
+python-dotenv
+
+# download of the SimpleQA question file (factual_bank)
+requests
+
+# SimCSE retrieval (bird_agent)
+torch
+transformers
