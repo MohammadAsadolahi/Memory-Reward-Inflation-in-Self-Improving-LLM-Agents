@@ -35,25 +35,24 @@
 ## Abstract
 
 <p align="justify">
-Self-improving LLM agents increasingly learn from experience without updating any weights. Each
-episode is stored in an external memory, scored, and retrieved for similar future tasks to shape later
-behavior. Viewed through a reward lens, the stored score is a proxy reward for an implicit,
-non-parametric policy. Each retrieved episode then becomes a policy-improvement step whose reliability
-hinges on how that score is produced. In deployment, ground-truth labels are unavailable, so the
-stored reward is at best an LLM assessment. This substitution creates a failure mode, the
-<em>Echo Gap</em>, across the memory-based self-improving agents and model families studied. Incorrect
-episodes receive inflated rewards and the agent preferentially reuses the very mistakes in which it
-has the greatest confidence. Because the error compounds through memory rather than averaging out and
-the confirming judge's errors remain correlated with the original self-grading bias, so it cannot
-identify which memories are overvalued. The missing property is formalized as the
-<em>Error-Independence Criterion</em> (EIC), which we show is a <em>necessary</em> condition for
-correcting the inflation, not merely a description of a good verifier: a usable signal must track
-truth <em>and</em> decorrelate its error from the memory bias, and the recoverable payoff is a
-closed-form function of exactly those two quantities. We further show the inflation compounds memory
-retrieval which is the regime of the memory-agent. Finally, the answer-free de-inflation algorithm
-LUCID delivers a consistent end-to-end gain on the BIRD text-to-SQL benchmark. It raises execution
-accuracy to 57.6%, above both a Memento-style self-graded agent (53.7%, a +3.9 point gain across
-seeds) and a memory-less agent (52.4% a +5.2 point gain).
+Self-improving large language model (LLM) agents increasingly learn from experience without updating
+any weights. Each episode is stored in an external memory, scored, and retrieved to guide similar
+future tasks. The stored score thus acts as a proxy reward for an implicit, non-parametric policy
+whose reliability hinges on how that score is produced. In deployment, ground-truth labels are
+unavailable, so the stored reward is at best an LLM assessment. This substitution creates a failure
+mode, the <em>Echo Gap</em>, across the agents and model families studied: incorrect episodes receive
+inflated rewards, and the agent preferentially reuses the very mistakes in which it is most
+confident. We show that the inflation compounds through memory rather than averaging out, even under
+similarity-only retrieval, the regime of the memory agent. A re-grading LLM judge cannot identify
+which memories are overvalued, because its errors remain correlated with the original self-grading
+bias. The missing property is formalized as the <em>Error-Independence Criterion</em> (EIC), which we
+prove is a <em>necessary</em> condition for correcting the inflation within the class of linear
+de-inflation rules, not merely a description of a good verifier: a usable signal must track truth
+<em>and</em> decorrelate its error from the memory bias, and the recoverable payoff is a closed-form
+function of exactly those two quantities. Finally, the answer-free de-inflation algorithm LUCID
+delivers a consistent end-to-end gain on the BIRD text-to-SQL benchmark, raising execution accuracy
+to 57.6%, above both a Memento-style self-graded agent (53.7%; +3.9 points across seeds) and a
+memory-less agent (52.4%; +5.2 points).
 </p>
 
 ## Overview
