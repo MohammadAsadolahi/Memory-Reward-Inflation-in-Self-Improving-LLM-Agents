@@ -283,9 +283,4 @@ To run the experiment:
 
 ## Data availability
 
-This repository contains code only. The outputs of the models (the memory banks, verifier traces,
-re-grade verdicts, episode logs and call caches that the scripts write to `results/`) are not
-distributed here, because the usage terms of the model providers restrict what model outputs may be
-used for. They are available for research use on request: write to the first author from an academic
-e-mail address and confirm that the data will be used for research only, and the files will be sent
-from the first author's academic address.
+The outputs of the models (the memory banks, verifier traces, re-grade verdicts, episode logs and call caches that the scripts write to `results/`) are not distributed here, because the usage terms of the model providers restrict what model outputs may be used for. They are available for research use on request: writeto the first author from an academic e-mail address and confirm that the data will be used for research only, and the files will be sent from the first author's academic address.
