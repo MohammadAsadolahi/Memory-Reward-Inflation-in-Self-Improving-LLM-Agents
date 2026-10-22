@@ -1,11 +1,11 @@
 <h1 align="center">Memory Reward Inflation in Self-Improving LLM Agents</h1>
 
 <p align="center">
-  <b>Mohammad Asadolahi</b><sup>1</sup> &nbsp;·&nbsp;
-  <b>Amir Amini</b><sup>2</sup> &nbsp;·&nbsp;
-  <b>Samira Talebi</b><sup>3</sup> &nbsp;·&nbsp;
-  <b>Amirfarhad Farhadi</b><sup>4</sup> &nbsp;·&nbsp;
-  <b>Azadeh Zamanifar</b><sup>5</sup>
+  <b>Mohammad Asadolahi</b>&nbsp;·&nbsp;
+  <b>Amir Amini</b> &nbsp;·&nbsp;
+  <b>Samira Talebi</b> &nbsp;·&nbsp;
+  <b>Amirfarhad Farhadi &nbsp;·&nbsp;
+  <b>Azadeh Zamanifar</b>
 </p>
 
 <p align="center">
@@ -283,4 +283,4 @@ To run the experiment:
 
 ## Data availability
 
-The outputs of the models (the memory banks, verifier traces, re-grade verdicts, episode logs and call caches that the scripts write to `results/`) are not distributed here, because the usage terms of the model providers restrict what model outputs may be used for. They are available for research use on request: writeto the first author from an academic e-mail address and confirm that the data will be used for research only, and the files will be sent from the first author's academic address.
+The outputs of the models (the memory banks, verifier traces, re-grade verdicts, episode logs and call caches that the scripts write to `results/`) are not distributed here, because the usage terms of the model providers restrict what model outputs may be used for. They are available for research use on request: write to the first author from an academic e-mail address and confirm that the data will be used for research only with full responsibility of the requests data by requester to not violate any providers terms and services and not redistribute the data by any means , and the files will be sent from the first author's academic address.
